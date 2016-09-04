@@ -1,0 +1,7 @@
+This is a program that traverses a square structure of 16 elements, each given a node Id.
+The program prints out all possible nodes that can be reached from a node that the user has
+entered. Specific nodes are connected to each other. 
+
+The connections are hard coded into the program.
+
+For example from node0, we can reach node 1 to which it is connected, to the right of it, and from it, to the node below it, which is 5. We cannot reach node 2 because the connection from left to right (between node 1 and node 2), does not exist.
